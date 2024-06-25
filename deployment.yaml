@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: ryu35/kubernetes-cicd:202406251435
-        ports:
-        - containerPort: 80
+        - name: nginx
+          image: ryu35/kubernetes-cicd:202406251743
+          ports:
+            - containerPort: 80
